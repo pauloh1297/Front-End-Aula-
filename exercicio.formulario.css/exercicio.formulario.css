@@ -1,0 +1,10 @@
+body{
+    background-color:antiquewhite
+}
+fieldset{
+    background-color: rgb(191, 171, 209);
+}
+label{
+    color:rgb(17, 17, 243) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
