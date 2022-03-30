@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulário Exercício</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paulo">
+    <meta name="description" content="Descrição TOP">
+    <meta name="keywords" content="HTML5, CSS3, JS">
+</head>
+<body>
+<h1>Preencha as informações</h1>
+<fieldset>
+<form action="@" method="post" target="_blank">
+<legend>Preencha as informações com seus dados</legend>
+<label for="txtnome">Nome:</label>
+<input type="text" id="txtnome" name="nome" minlength="10" maxlength="80" required>
+<hr>
+<label for="txtemail">E-Mail:</label>
+<input type="email" id="txtemail" name="e-mail" placeholder="informe um e-mail valido" required>
+<hr>
+<label for="txtnascimento">Data de Nascimento</label>
+<input type="date" min="1900-01-30" max="2022-01-60" id="txtnascimento">
+<hr>
+<label for="txtatuação">Área de Atuação</label>
+<input type="text" name="Área de atuação" id="txtauação" minlength="50" required>
+<hr>
+<label for="txtdescrição">Descrição das Atividades</label>
+<textarea name="Descrição" id="txtdescrição" cols="150" rows="15" minlength="150"  required></textarea>
+<hr>
+<input type="submit" value="Enviar">
+<input type="reset" value="Apagar">
+
+</form>
+</fieldset>
+
+
+
+</body>
+</html>
