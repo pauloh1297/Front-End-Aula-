@@ -1,0 +1,34 @@
+body{
+    margin: 40px;
+}
+
+h1{
+    background-color: coral;
+    border: 1px solid red;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    background-color: aqua;
+    color: red;
+    border-bottom: 5px solid red;
+    padding: 20px;
+}
+h3{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h4{
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
