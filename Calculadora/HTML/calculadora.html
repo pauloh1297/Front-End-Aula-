@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paulo">
+    <meta name="description" content="Descrição TOP">
+    <meta name="keywords" content="HTML5, CSS3, JS">
+    <link rel="stylesheet" href="../CSS/calculadora.css">
+    <script src="../JS/calculadora.js"></script>
+</head>
+
+
+
+<body>
+    <div id="calculator">
+        <div id="display">0</div>
+
+        <button>AC</button>
+        <button onclick="informarOperador('%')" class="porcentagem">%</button>
+        <button onclick="informarOperador('x')" class="multiplicar">x</button>
+        <button onclick="informarOperador('/')" class="dividir">/</button>
+        <button onclick="informarNumero('7')">7</button>
+        <button onclick="informarNumero('8')">8</button>
+        <button onclick="informarNumero('9')">9</button>
+        <button onclick="calcular()">=</button>
+        <button onclick="informarNumero('4')">4</button>
+        <button onclick="informarNumero('5')">5</button>
+        <button onclick="informarNumero('6')">6</button>
+        <button onclick="informarOperador('-')" class="dividir">-</button>
+        <button onclick="informarNumero('1')">1</button>
+        <button onclick="informarNumero('2')">2</button>
+        <button onclick="informarNumero('3')">3</button>
+        <button onclick="informarOperador('+')" class="mais">+</button>
+        <button class="zero">0</button>
+        <button>,</button>
+
+    </div>
+</body>
+
+</html>
