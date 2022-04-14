@@ -1,9 +1,16 @@
+body{
+    min-width: 320px;
+    max-width: 900px;
+}
+
+
+
 .linha5 {
     background-color: rgb(70, 71, 71);
     position: absolute;
     top: -2%;
-    left: 18.5%;
-    right: 18.5%;
+    left: 12.5%;
+    right: 45%;
     padding-bottom: 25px;
 }
 
@@ -11,13 +18,13 @@
     color: white;
     position: absolute;
     top: -2%;
-    left: 40%;
+    left: 20%;
     right: 18.5%;
     font-size: 12px;
 }
 
 .conteiner {
-    width: 845px;
+    width: 575px;
     margin: auto;
     position: relative;
     bottom: -10px;
@@ -34,16 +41,16 @@
 
 .centro {
     position: absolute;
-    top: 20%;
-    left: 25%;
+    top: 10%;
+    left: 22%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(70, 71, 71);
 
 }
 
 .lisa {
-    width: 120px;
+    width: 90px;
     margin: auto;
     position: relative;
 }
@@ -51,12 +58,12 @@
 .lisa img {
     width: 100%;
     position: absolute;
-    top: -70px;
-    left: -150px;
+    top: -50px;
+    left: -100px;
 }
 
 .daniele {
-    width: 120px;
+    width: 90px;
     margin: auto;
     position: relative;
 }
@@ -64,12 +71,12 @@
 .daniele img {
     width: 100%;
     position: absolute;
-    top: -70px;
-    left: 20px;
+    top: -50px;
+    left: 11px;
 }
 
 .brian {
-    width: 120px;
+    width: 90px;
     margin: auto;
     position: relative;
 }
@@ -77,8 +84,8 @@
 .brian img {
     width: 100%;
     position: absolute;
-    top: -70px;
-    left: 190px;
+    top: -50px;
+    left: 120px;
 }
 
 .titulo2 {
